@@ -12,3 +12,4 @@ export const read = async () => {
   stream.pipe(process.stdout);
   stream.on("error", (error) => console.log("Error", error.message));
 };
+read();

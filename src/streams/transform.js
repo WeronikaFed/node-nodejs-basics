@@ -9,3 +9,4 @@ export const transform = async () => {
       });
       process.stdin.pipe(removeSpaces).pipe(process.stdout);
 };
+transform();

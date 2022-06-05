@@ -16,3 +16,4 @@ export const write = async () => {
     };
     process.stdin.pipe(output);
 };
+write();

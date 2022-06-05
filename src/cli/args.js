@@ -9,4 +9,4 @@ export const parseArgs = () => {
   }
   console.log(res);
 };
-
+parseArgs();

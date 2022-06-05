@@ -5,3 +5,4 @@ export const parseEnv = () => {
    .join('; ');
 console.log(res);
 };
+parseEnv();

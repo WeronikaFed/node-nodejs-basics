@@ -15,3 +15,4 @@ export const remove = async () => {
     console.log('File was deleted')
   });
 };
+remove();

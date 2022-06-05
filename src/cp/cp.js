@@ -14,3 +14,4 @@ export const spawnChildProcess = async (args) => {
     ls.stdout.pipe(process.stdout)
     })
 };
+spawnChildProcess();

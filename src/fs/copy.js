@@ -22,3 +22,4 @@ export const copy = async () => {
     throw Error("FS operation failed");
   }
 };
+copy();
